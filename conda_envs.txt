@@ -1,17 +1,6 @@
-# pytorch-vq-vae
-PyTorch implementation of VQ-VAE by Aäron van den Oord et al.
-
-## Conda setup and running vq-vae
-
-```
 base$ conda create -n vq-vae python=3.11.9
 base$ conda activate vq-vae
 vq-vae$ conda install -y pytorch torchvision cpuonly -c pytorch
 vq-vae$ conda install -y scipy opencv matplotlib six
 vq-vae$ pip install "olefile>=0.47"
 vq-vae$ python main.py -save
-```
-
-## Notebook
-
-See [vq-vae.ipynb](https://nbviewer.jupyter.org/github/zalandoresearch/pytorch-vq-vae/blob/master/vq-vae.ipynb)
